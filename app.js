@@ -8,7 +8,7 @@ app.use(bodyParser.json());
 app.set('view engine','ejs')
 app.use(express.static('./public'))
 //mongoose.connect('mongodb://localhost/formdata')
-mongoose.connect('mongodb://arjun1:arjun1@ds259253.mlab.com:59253/mongouploads')
+mongoose.connect('mongodb://arjun1:arjun1@ds259253.mlab.com:59253/mongouploads/formdata')
 
 
 var user = mongoose.model('formData',{
